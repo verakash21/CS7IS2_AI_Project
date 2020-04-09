@@ -1,0 +1,15 @@
+DFS VS MiniMax
+Game 1: https://lichess.org/study/lDLLmJii , DFS: Black Wins.
+Quick Summary: Game was going well initially with both sides making good initial move. However, as the game progressed it could be seen that black (using DFS) made more smarter moves while White(using Minimax) tried to move pawns ahead and made few saves. Later, during a check by knight white failed to realise and moved queen rather than saving king. Hence, black wins.
+Issues: MiniMax failed to realise the weight of saving king.
+
+Game 2: https://lichess.org/study/lDLLmJii , Tie.
+Quick Summary: Both Engines got stuck with same move for several moves. White tries to save queen and black is trying to kill it. Leaving this part both games played well and white made some smart moves specially in terms of using queen and killing knight with pawn.
+Issues: Both engines failed to break the bottleneck.
+
+Game 3: https://lichess.org/study/lDLLmJii , DFS: Black Wins.
+Quick Summary: A very impressive game by black. Both engines made smart moves to kill each others pieces. But, black aimed towards king quicker and more accurately.
+Issues: None
+
+Overall Summary: DFS wins twice and third was tie.
+DFS overall had a more smarter game than MiniMax. While minimax relied on pawns and queen mostly, DFS went to use knight with combination of either queen or bishop and hardly used pawns. Both seemed to think of future moves to kill other while caring less for their own peices unless it was queen (surprisingly DFS didn't even care about the king). Ultimately, DFS had more accurate and better results in these games.
