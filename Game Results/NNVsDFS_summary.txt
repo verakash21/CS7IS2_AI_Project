@@ -1,0 +1,15 @@
+Feed-Forward Neural Network(NN) VS Depth-First Search(DFS) 
+
+Game 1: https://lichess.org/study/vEuTb8Ye , NN: White Wins.
+Quick Summary: Game was fine in the start but after a couple of moves, white (NN) started to become more and more offensive in moves which in turn made black (DFS) more defensive in move. Also in the end of game black (DFS) didn't realise that king is 'checkmate' now and still continued to play.
+
+
+Game 2: https://lichess.org/study/IWVLQM69 , NN: White Wins.
+Quick Summary: White (NN) was playing safe in start with small moves but same offensive moves were repeated in this game as well also black (DFS) was again difensive in move. Also in the end of the 2nd game too black (DFS) didn't realise that king is 'checkmate' now and still continued to play.
+
+Game 3: https://lichess.org/study/NcCfiN2j , NN: White Wins.
+Quick Summary: Game was very different this time, almost like the table has turned in black's (DFS) favour. Black (DFS) was offensive from the start and white (NN) was diffensive this time. Till the end it almost felt like black (DFS) would win this game, but the last few moves of white (NN) won the game. This time too black (DFS) didn't realise that king is 'checkmate' now and still continued to play.
+
+
+Overall Summary: NN: White Wins all three times.
+NN was smarter than DFS here due to extensive training. it always aimed for checking the king one way or another. whereas, DFS was more like trying to protect it self

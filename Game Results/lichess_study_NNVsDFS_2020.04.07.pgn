@@ -1,0 +1,11 @@
+[Event "game 1 study: Chapter 1"]
+[Site "https://lichess.org/study/vEuTb8Ye/uuhbhvz1"]
+[Result "*"]
+[UTCDate "2020.04.07"]
+[UTCTime "15:19:26"]
+[Variant "Standard"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Mokele Mbembe"]
+[Annotator "https://lichess.org/@/tejep"]
+
+1. e4 Nf6 2. e5 Ne4?! { Inaccuracy. Nd5 was best. } (2... Nd5 3. d4 d6 4. Nf3 dxe5 5. Nxe5 c6 6. Nf3 Bf5 7. Bd3) 3. Qf3?! { Inaccuracy. d4 was best. } (3. d4 e6 4. c3 d5 5. Nh3 h6 6. Bd3 c5 7. O-O Nc6) 3... d5 4. d3?! { Inaccuracy. c3 was best. } (4. c3 h6 5. Qe3 e6 6. d3 Bc5 7. d4 Be7 8. Nd2 c5) 4... Nc5 5. d4 Ne6 6. c3 Nc6?? { Blunder. c5 was best. } (6... c5 7. Qd1 Nc6 8. Nf3 g6 9. Bb5 Bg7 10. O-O Bd7 11. Bxc6 bxc6 12. Be3 Rb8 13. Qc1) 7. Nh3 Qd7 8. Nd2 g6 9. b4 Bh6 10. Nb3 Bxc1 11. Rxc1 Kf8?! { Inaccuracy. O-O was best. } (11... O-O 12. Bd3 f6 13. exf6 exf6 14. O-O b6 15. Rfe1 Bb7 16. Qg3 Rae8 17. Bf5 Ncd8 18. Nf4) 12. Nf4?! { Inaccuracy. Bd3 was best. } (12. Bd3 b6) 12... Nxf4 13. Qxf4 Qe6?! { Inaccuracy. h5 was best. } (13... h5) 14. b5 Nd8 15. Qh6+ Kg8 16. f3?! { Inaccuracy. Nc5 was best. } (16. Nc5 Qg4 17. h3 Qh5 18. Qxh5 gxh5 19. c4 c6 20. bxc6 bxc6 21. Be2 Kg7 22. cxd5 cxd5) 16... Bd7?? { Blunder. b6 was best. } (16... b6) 17. Nc5 Qf5 18. Kf2?? { Blunder. Bd3 was best. } (18. Bd3) 18... Be8 19. Qe3?! { Inaccuracy. g4 was best. } (19. g4 Qc8) 19... b6?! { Inaccuracy. a6 was best. } (19... a6 20. bxa6 b6 21. Nb3 Kg7 22. c4 Rxa6 23. cxd5 Rxa2+ 24. Nd2 c6 25. Bd3 Qh5 26. Bc4) 20. Bd3 Qh5?? { Blunder. Qc8 was best. } (20... Qc8 21. Na6 Ne6 22. Rhd1 c5 23. bxc6 Bxc6 24. Nb4 Ba4 25. Rd2 Qd7 26. c4 Rc8 27. Nxd5) 21. Na6 Ne6 22. h4 Bd7?! { Inaccuracy. Kg7 was best. } (22... Kg7 23. c4) 23. g4 Bxb5 24. Bxb5 Nxd4 25. cxd4 c6 26. Bxc6 Rc8?! { Checkmate is now unavoidable. Qxg4 was best. } (26... Qxg4 27. fxg4) 27. gxh5 gxh5 28. Qg5+ Kf8 29. Qh6+ Kg8 30. Rhg1# *
