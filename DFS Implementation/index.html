@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Chess AI</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/multithread/multithread.js"></script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div id = 'main'>
+  <div class='statusdiv'><p id='status'>Your turn...</p></div>
+  <div style="float:right">
+    <button onclick="startGame()">Reset game</button><p/>
+    <b>Difficulty:</b><br/>
+    <input type="radio" name="difficulty" value="2"> Easy (depth = 2)<br>
+    <input type="radio" name="difficulty" value="3" checked="true"> Moderate (depth = 3)<br>
+    <input type="radio" name="difficulty" value="4"> Hard (depth = 4) <p><p>
+    <b>Background:</b><br/>
+    <input type="radio" name="backgroundmode" value="0"> Default<br>
+    <input type="radio" name="backgroundmode" value="1" checked="true"> Night mode<p>
+    <b>Game log:</b><br/>
+    <textarea rows="20" cols="40" id ='moveLog'></textarea>
+  </div>
+  <div id = 'chessdiv'>
+    <table id='chessboard'></table>
+  </div>
+</div>
+  <script src="js/chessboard.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>

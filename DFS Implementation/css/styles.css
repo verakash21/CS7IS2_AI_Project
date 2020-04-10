@@ -1,0 +1,75 @@
+body {
+  font-family: 'Open Sans';
+  background-color: #333;
+  color: #FDFDFD;
+}
+
+div#main {
+  width: 800px;
+  margin:auto;
+}
+
+table#chessboard img {
+  height: 52px;
+  margin:auto;
+  border:0px;
+}
+
+img {
+    display: none;
+}
+
+
+img[src] {
+   display:block;
+ }
+
+table#chessboard tr {
+  padding: 0px;
+}
+
+table#chessboard td {
+  padding: 0px;
+  width: 64px;
+  height: 64px;
+}
+
+table#chessboard, th, td {
+    border: 1px solid #DDD;
+}
+
+table#chessboard {
+  align:center;
+  border-spacing:0px;
+  border-collapse: collapse;
+}
+
+div.highlight_overlay {
+  width: 100%;
+  height:100%;
+  z-index: 10;
+  background-color: rgba(174,238,0,0);
+}
+
+div.highlight_overlay.enabled {
+  background-color: rgba(174,238,0,0.8);
+}
+
+div.chosen_overlay {
+  width: 100%;
+  height:100%;
+  z-index: 10;
+
+  background-color: rgba(238,226,4,0);
+}
+
+div.chosen_overlay.enabled {
+  background-color: rgba(238,226,4,0.8);
+}
+
+div.piece_container {
+  display: table-cell;
+  vertical-align: bottom;
+  height:52px;
+}
+
