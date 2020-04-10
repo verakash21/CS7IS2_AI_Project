@@ -1,0 +1,11 @@
+[Event "suhridchatterjee's Study: g1"]
+[Site "https://lichess.org/study/IK8EK4pE/h3wTomga"]
+[Result "*"]
+[UTCDate "2020.04.08"]
+[UTCTime "10:39:37"]
+[Variant "Standard"]
+[ECO "A00"]
+[Opening "Ware Opening"]
+[Annotator "https://lichess.org/@/suhridchatterjee"]
+
+1. a4 e5 2. h3 Nc6 3. h4? { Mistake. e4 was best. } (3. e4 Nf6) 3... Bc5?! { Inaccuracy. d5 was best. } (3... d5) 4. f3? { Mistake. c3 was best. } (4. c3) 4... Be7?! { Inaccuracy. Nge7 was best. } (4... Nge7) 5. g4?? { Checkmate is now unavoidable. g3 was best. } (5. g3 d5) 5... Bxh4+ 6. Rxh4 Qxh4# *
