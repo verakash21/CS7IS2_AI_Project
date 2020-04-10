@@ -1,0 +1,18 @@
+White: Minimax
+Black: NN
+
+
+Game 1: https://lichess.org/study/IK8EK4pE
+Winner: Black
+
+Was over in 5 minutes. NN dominated with smarter moves all throughout the short duration of the game. Not much to talk about.
+
+Game 2: https://lichess.org/study/riWqKtvK
+Winner: Black
+
+The level of domination by NN didn't change in game 2, although minimax did seem to put up a better fight with smarter moves. The most essential takeaway is that minimax concentrates on futile elimination of pieces over attacking the king - the main objective of the game. It also fails to realize pretty obviously imminent threats to its own king.
+
+Game 3: https://lichess.org/study/Cs9vteiJ
+Winner: Black
+
+A repeat of game 1. Moves made by the minimax seemed to ignore an easy ploy by the NN queen.
